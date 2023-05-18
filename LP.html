@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Strona WWW</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <section id="lead">
+    <h1>Tytuł strony</h1>
+    <p>Krótki tekst wprowadzający.</p>
+    <a href="#details" class="cta-button">Zobacz więcej</a>
+  </section>
+
+  <section id="details">
+    <h2>Szczegóły</h2>
+    <div class="product">
+      <h3>Nazwa produktu 1</h3>
+      <p>Krótki opis produktu.</p>
+      <a href="link_do_produktu_1" target="_blank">Szczegóły</a>
+    </div>
+    <div class="product">
+      <h3>Nazwa produktu 2</h3>
+      <p>Krótki opis produktu.</p>
+      <a href="link_do_produktu_2" target="_blank">Szczegóły</a>
+    </div>
+  </section>
+
+  <section id="video">
+    <h2>Zalety produktu</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section id="form">
+    <h2>Formularz kontaktowy</h2>
+    <form>
+      <input type="text" name="name" placeholder="Imię i nazwisko" required>
+      <br>
+      <input type="tel" name="phone" placeholder="Telefon" required>
+      <br>
+      <textarea name="message" placeholder="Treść wiadomości" required></textarea>
+      <br>
+      <button type="button">Więcej</button>
+    </form>
+  </section>
+</body>
+</html>
