@@ -54,14 +54,14 @@
 
   <section id="form">
     <h2>Formularz kontaktowy</h2>
-    <form id = 'for'>
-      <input type="text" name="name" placeholder="Imię i nazwisko" required >
-      <br>
-      <input type="tel" name="phone" placeholder="Telefon" required >
-      <br>
-      <textarea name="message" placeholder="Treść wiadomości" required></textarea>
-      <br>
-      <button type="button">Więcej</button>
+    <form id="formularz">
+      <label for="imie-nazwisko">Imię i nazwisko</label>
+      <input type="text" id="imie-nazwisko" name="imie-nazwisko">
+      <label for="telefon">Telefon</label>
+      <input type="tel" id="telefon" name="telefon">
+      <label for="tresc">Treść</label>
+      <textarea id="tresc" name="tresc"></textarea>
+      <button type="submit">Wyślij</button>
     </form>
   </section>
   <!-- Google Tag Manager (noscript) -->
